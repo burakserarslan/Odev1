@@ -1,0 +1,41 @@
+section{background-color: gray; border:1px solid black; font-family:Cambria; box-sizing: border-box;}
+header.chickenHeader{background-color: pink; width: 120px;  }
+header.beefHeader{background-color:red; color:white; width:120px; }
+header.sushiHeader{background-color:yellow; width:120px;  }
+header{text-align: center; font-family:Cambria; font-size:28px; font-weight:bold; box-sizing: border-box;  }
+section p{margin:10px; box-sizing: border-box; font-size: 16px;}
+section header{float:right;position: relative; border:1px solid black; padding:5px; font-size: 20px; }
+@media( min-width : 992px ){ 
+section{
+	float:left;
+	clear:right;
+	margin: 40px;
+	width:calc(33.3% - 55px);
+	
+}	
+
+.middleSection{margin:40px 0px;}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+section{
+	float:left;
+	clear:right;
+	margin:40px;
+	width:calc(50% - 61px);
+	
+
+}
+#section1{margin-right:20px;}
+#section2{margin-left:20px;}
+#section3{margin:40px; width:calc(100% - 81px); margin-top:0px;}
+
+}
+
+	
+@media (max-width : 767px ){
+section{
+	margin: 40px;
+	
+}
+}
